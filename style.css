@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainNavbar.navbar-default.navbar{
+    background-color: #111;
+    border-color: #111;
+}
+.mainNavbar .navbar-brand {
+    padding: 5px 15px;
+}
+.mainNavbar .nav>li>a{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.mainNavbar .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: gold;
+    border: gold;
+}
+
+.mainNavbar button .navbar-toggle{
+    border: gold;
+}
+
+.mainNavbar button .navbar-toggle .icon-bar{
+    color: gold;
+}
+
+
+.mainNavbar .nav>li>a:focus, .mainNavbar .nav>li>a:hover{
+    background-color: gold;
+    color: #fff;
+}
+
+
